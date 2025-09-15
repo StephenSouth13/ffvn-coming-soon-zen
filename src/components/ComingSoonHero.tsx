@@ -84,7 +84,7 @@ export const ComingSoonHero = () => {
         {/* Bottom text */}
         <div className="mt-12 sm:mt-16 animate-in fade-in duration-1000 delay-1200">
           <p className="text-white/50 text-xs sm:text-sm px-4">
-            © 2024 FFVN - Future Fund Vietnam. Tất cả quyền được bảo lưu.
+            © 2025 FFVN . Tất cả quyền được bảo lưu.
           </p>
         </div>
       </div>
