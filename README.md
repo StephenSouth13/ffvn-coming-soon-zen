@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# FFVN - Future Fund Vietnam
 
-## Project info
+## Mô tả dự án
 
-**URL**: https://lovable.dev/projects/a74302b2-0738-47fd-a02e-a81f2007ffbf
+Trang web "Coming Soon" cho quỹ đầu tư FFVN (Future Fund Vietnam) - một quỹ đầu tư hàng đầu tại Việt Nam.
 
-## How can I edit this code?
+## Công nghệ sử dụng
 
-There are several ways of editing your application.
+Dự án được xây dựng với:
 
-**Use Lovable**
+- **Vite** - Build tool
+- **TypeScript** - Type safety
+- **React** - UI framework
+- **Tailwind CSS** - Styling
+- **Shadcn/ui** - UI components
+- **Dark mode support** - Theme switching
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a74302b2-0738-47fd-a02e-a81f2007ffbf) and start prompting.
+## Tính năng
 
-Changes made via Lovable will be committed automatically to this repo.
+✨ **Giao diện đẹp mắt**
+- Hero section với gradient backgrounds
+- Animations mượt mà
+- Responsive design hoàn hảo
+- Dark/Light mode toggle
 
-**Use your preferred IDE**
+📧 **Email Subscription**
+- Form đăng ký nhận thông tin
+- Validation và UX tối ưu
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📱 **Responsive Design**
+- Tối ưu cho tất cả thiết bị
+- Mobile-first approach
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Cài đặt và Chạy
 
-Follow these steps:
+```bash
+# Clone repository
+git clone <YOUR_REPO_URL>
+cd ffvn-coming-soon
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Cài đặt dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Chạy development server
 npm run dev
+
+# Build cho production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Deploy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Dự án có thể deploy lên:
+- **Vercel** (recommended)
+- **Netlify**
+- **GitHub Pages**
 
-**Use GitHub Codespaces**
+### Deploy lên Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Push code lên GitHub
+2. Kết nối repository với Vercel
+3. Deploy tự động
 
-## What technologies are used for this project?
+## Cấu trúc thư mục
 
-This project is built with:
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Shadcn UI components
+│   ├── ComingSoonHero.tsx
+│   ├── EmailSubscription.tsx
+│   └── ThemeToggle.tsx
+├── assets/             # Images và static files
+├── pages/              # Page components
+├── hooks/              # Custom hooks
+└── lib/                # Utilities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/a74302b2-0738-47fd-a02e-a81f2007ffbf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2024 FFVN - Future Fund Vietnam. All rights reserved.
